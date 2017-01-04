@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/media/long/linux/ProjectForLinux/NewsForme/library/build/intermediates/res/merged/release/layout-v21/notification_template_icon_group.xml",
+        "source": "/media/long/linux/ProjectForLinux/NewsForme/library/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/media/long/linux/ProjectForLinux/NewsForme/library/build/intermediates/res/merged/release/layout-v21/notification_action.xml",
+        "source": "/media/long/linux/ProjectForLinux/NewsForme/library/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/media/long/linux/ProjectForLinux/NewsForme/library/build/intermediates/res/merged/release/layout-v21/notification_template_custom_big.xml",
+        "source": "/media/long/linux/ProjectForLinux/NewsForme/library/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/media/long/linux/ProjectForLinux/NewsForme/library/build/intermediates/res/merged/release/layout-v21/notification_action_tombstone.xml",
+        "source": "/media/long/linux/ProjectForLinux/NewsForme/library/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout-v21/notification_action_tombstone.xml"
+    }
+]

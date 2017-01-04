@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools"
+           tools:ignore="MissingTranslation" >
+
+    <string name="app_name">小闻</string>
+    <string name="action_settings">Settings</string>
+
+
+    //页面
+    <string name="dakai">dakai</string>
+    <string name="guanbi">guanbi</string>
+    <string name="redian">热点</string>
+    <string name="nba">NBA</string>
+    <string name="qiche">汽车 </string>
+    <string name="xiaohua">笑话</string>
+    <string name="sousuo">输入您想搜索的新闻</string>
+</resources>

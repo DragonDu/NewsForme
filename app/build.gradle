@@ -1,5 +1,7 @@
 apply plugin: 'com.android.application'
 apply plugin: 'android-apt'
+apply plugin: 'com.squareup.sqldelight'
+
 android {
 
     compileSdkVersion rootProject.ext.compileSdkVersion
@@ -36,7 +38,7 @@ dependencies {
     compile 'com.ashokvarma.android:bottom-navigation-bar:1.3.0'
     compile 'com.cjj.materialrefeshlayout:library:1.3.0'
     compile 'com.lzy.net:okgo:+'
-    compile 'com.google.code.gson:gson:2.4'
+    compile 'com.google.code.gson:gson:2.8.0'
     compile 'com.facebook.fresco:fresco:0.14.1'
     compile 'org.sufficientlysecure:html-textview:2.0'
     compile project(':library')
@@ -52,4 +54,11 @@ dependencies {
     compile files('libs/ShareSDK-Wechat-Favorite-2.7.7.jar')
     compile files('libs/ShareSDK-Wechat-Moments-2.7.7.jar')
     compile 'de.hdodenhof:circleimageview:2.1.0'
+    provided 'com.google.auto.value:auto-value:1.2'
+    apt 'com.google.auto.value:auto-value:1.2'
+    apt 'com.ryanharter.auto.value:auto-value-gson:0.4.5'
+    provided 'com.ryanharter.auto.value:auto-value-gson:0.4.5'
+    apt 'com.ryanharter.auto.value:auto-value-parcel:0.2.5'
+    compile 'com.ryanharter.auto.value:auto-value-parcel-adapter:0.2.5'
+    compile 'com.squareup.sqlbrite:sqlbrite:1.1.1'
 }

@@ -1,0 +1,11 @@
+CREATE TABLE Mytable(
+    _id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    login TEXT NOT NULL COLLATE NOCASE,
+    age INTEGER,
+    email TEXT,
+    name TEXT
+);
+select_by_name:
+        SELECT *
+FROM Mytable
+WHERE name=?;
